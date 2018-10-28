@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Oct 4, 2018 10:30:23 AM by Hibernate Tools 5.1.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="schoolProject" dynamic-insert="false" dynamic-update="false" mutable="true" name="schoolProject.Questionnaires" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="questionnaires">
+        <id name="idQuest" type="java.lang.Integer">
+            <column name="id_quest"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="typeQuest" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="type_quest"/>
+        </property>
+        <property generated="never" lazy="false" name="question" optimistic-lock="true" type="string" unique="false">
+            <column length="60" name="question"/>
+        </property>
+        <property generated="never" lazy="false" name="response" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="response"/>
+        </property>
+    </class>
+</hibernate-mapping>

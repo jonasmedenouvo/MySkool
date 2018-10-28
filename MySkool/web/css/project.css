@@ -1,0 +1,33 @@
+body {
+	height: 100vh;
+	margin: 0;
+	background:
+		url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/cute-and-puffy-cartoon-clouds-hovering-in-a-blue-sky-above-the-forest-trees_hbgpfgxbq__F0000.png")
+		no-repeat center fixed;
+	background-size: cover;
+}
+
+html {
+	font-weight: bold;
+}
+
+#form-1 {
+	border: solid black;
+	width: 25%;
+	background-color: gray;
+}
+
+.entete {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 25vh;
+	color:black;
+}
+
+.log {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 25vh;
+}

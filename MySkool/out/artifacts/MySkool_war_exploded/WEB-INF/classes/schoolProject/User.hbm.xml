@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Oct 4, 2018 10:30:23 AM by Hibernate Tools 5.1.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="schoolProject" dynamic-insert="false" dynamic-update="false" mutable="true" name="schoolProject.User" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="user">
+        <id name="idUser" type="java.lang.Integer">
+            <column name="id_user"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="lastname" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="lastname"/>
+        </property>
+        <property generated="never" lazy="false" name="firstname" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="firstname"/>
+        </property>
+        <property generated="never" lazy="false" name="age" optimistic-lock="true" type="string" unique="false">
+            <column length="2" name="age"/>
+        </property>
+        <property generated="never" lazy="false" name="gender" optimistic-lock="true" type="java.lang.Character" unique="false">
+            <column length="1" name="gender"/>
+        </property>
+    </class>
+</hibernate-mapping>

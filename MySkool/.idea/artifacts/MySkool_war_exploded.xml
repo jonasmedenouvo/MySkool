@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="MySkool:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MySkool_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MySkool" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-1.2" />
+          <element id="library" level="project" name="OpenFaces-3.0" />
+          <element id="library" level="project" name="Richfaces-4.2.2" />
+          <element id="library" level="project" name="PrimeFaces-6.1" />
+          <element id="library" level="project" name="Hibernate 5.3.6-5.3.6" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.23-bin" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MySkool/web/Web" />
+    </root>
+  </artifact>
+</component>
